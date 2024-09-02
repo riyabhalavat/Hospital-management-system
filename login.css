@@ -1,0 +1,92 @@
+/* Define the background styles */
+body {
+    background-color: #0e0e0e;
+    background-image: url('c:\Users\admin\Downloads\universe.webp'); /* Image of universe */
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.underline {
+    width: 100px;
+    height: 4px;
+    background-color: white; 
+    border-radius: 2px;
+    margin: auto;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.input input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+.input input::placeholder {
+    color: #ccc; /* Light gray placeholder color */
+}
+
+/* Submit button styles */
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0275d8; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #015499; 
+}
+
+/* Gray button styles */
+.gray {
+    background-color: #cccccc; 
+    color: #666666;
+}
+
+.gray:hover {
+    background-color: #b3b3b3; 
+}
+
+
